@@ -1,0 +1,87 @@
+# Please take the time to finish this file as described in
+# https://sourceforge.net/p/lirc-remotes/wiki/Checklist/
+# and make it available to others by sending it to
+# <lirc@bartelmus.de>
+#
+# This config file was automatically generated
+# using lirc-0.10.1(default) on Tue Mar 16 03:23:47 2021
+# Command line used: 
+# Kernel version (uname -r): 5.4.83-v7+
+#
+# Remote name (as of config file): ledall
+# Brand of remote device, the thing you hold in your hand:
+# Remote device model nr:
+# Remote device info url:
+# Does remote device has a bundled capture device e. g., a
+#     usb dongle? :
+# For bundled USB devices: usb vendor id, product id
+#     and device string (use dmesg or lsusb):
+# Type of device controlled
+#     (TV, VCR, Audio, DVD, Satellite, Cable, HTPC, ...) :
+# Device(s) controlled by this remote:
+
+begin remote
+
+  name  ledall
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9004  4499
+  one           537  1701
+  zero          537   583
+  ptrail        537
+  repeat       9001  2266
+  gap          107419
+  toggle_bit_mask 0x0
+  frequency    38000
+
+      begin codes
+          KEY_1                    0x00FF02FD 0x7EE9FD00
+          KEY_2                    0x00FF827D 0x7EE9FD00
+          KEY_3                    0x00FFBA45 0x7EE9FD00
+          KEY_4                    0x00FF3AC5 0x7EE9FD00
+          KEY_A                    0x00FF1AE5 0x7EE9FD00
+          KEY_B                    0x00FF2AD5 0x7EE9FD00
+          KEY_C                    0x00FF0AF5 0x7EE9FD00
+          KEY_D                    0x00FF38C7 0x7EE9FD00
+          KEY_E                    0x00FF18E7 0x7EE9FD00
+          KEY_F                    0x00FF9A65 0x7EE9FD00
+          KEY_G                    0x00FFAA55 0x7EE9FD00
+          KEY_H                    0x00FF8A75 0x7EE9FD00
+          KEY_I                    0x00FFB847 0x7EE9FD00
+          KEY_J                    0x00FF9867 0x7EE9FD00
+          KEY_K                    0x00FFA25D 0x7EE9FD00
+          KEY_L                    0x00FF926D 0x7EE9FD00
+          KEY_M                    0x00FFB24D 0x7EE9FD00
+          KEY_N                    0x00FF7887 0x7EE9FD00
+          KEY_O                    0x00FF58A7 0x7EE9FD00
+          KEY_P                    0x00FF22DD 0x7EE9FD00
+          KEY_Q                    0x00FF12ED 0x7EE9FD00
+          KEY_R                    0x00FF32CD 0x7EE9FD00
+          KEY_S                    0x00FFF807 0x7EE9FD00
+          KEY_T                    0x00FFD827 0x7EE9FD00
+          KEY_F1                   0x00FF28D7 0x7EE9FD00
+          KEY_F2                   0x00FF08F7 0x7EE9FD00
+          KEY_F3                   0x00FFA857 0x7EE9FD00
+          KEY_F4                   0x00FF8877 0x7EE9FD00
+          KEY_F5                   0x00FF6897 0x7EE9FD00
+          KEY_F6                   0x00FF48B7 0x7EE9FD00
+          KEY_F7                   0x00FF30CF 0x7EE9FD00
+          KEY_F8                   0x00FFB04F 0x7EE9FD00
+          KEY_F9                   0x00FF708F 0x7EE9FD00
+          KEY_F10                  0x00FF10EF 0x7EE9FD00
+          KEY_F11                  0x00FF906F 0x7EE9FD00
+          KEY_F12                  0x00FF50AF 0x7EE9FD00
+          KEY_F13                  0x00FFE817 0x7EE9FD00
+          KEY_F14                  0x00FFC837 0x7EE9FD00
+          KEY_F15                  0x00FFF00F 0x7EE9FD00
+          KEY_F16                  0x00FFD02F 0x7EE9FD00
+          KEY_F17                  0x00FF20DF 0x7EE9FD00
+          KEY_F18                  0x00FFA05F 0x7EE9FD00
+          KEY_F19                  0x00FF609F 0x7EE9FD00
+          KEY_F20                  0x00FFE01F 0x7EE9FD00
+      end codes
+
+end remote
