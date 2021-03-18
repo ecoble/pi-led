@@ -47,4 +47,10 @@ irsend SEND_ONCE ledall KEY_1
 ```
 Or the python file send.py has functions that map these keys to their button function on a standard remote
 
+The backend server is in the led-app folder, to start the server nagivate to this folder and run 
+```
+node index.js
+```
+Calls can now be made to the API endpoint to toggle the power, set custom colors, and set patterns on the LED lights.
+
 
