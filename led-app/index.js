@@ -30,19 +30,13 @@ function repeatKey(count, key) {
     })
 }
 
-function sleep(timeout) {
-    return new Promise((resolve) => {
-        setTimeout(resolve, timeout);
-    })
-}
-
 async function customColor(red, green, blue) {
     timeout = 150;
 
     if(c_red == -1 && c_green == -1 && c_blue == -1) {
-        newRed = Math.floor(((255 - red) / 255) * steps);
-        newGreen = Math.floor(((255 - green) / 255) * steps);
-        newBlue = Math.floor(((255 - blue) / 255) * steps);
+        newRed = Math.round(((255 - red) / 255) * steps);
+        newGreen = Math.round(((255 - green) / 255) * steps);
+        newBlue = Math.round(((255 - blue) / 255) * steps);
 
         await repeatKey(1, "KEY_F7")
         Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, timeout);
@@ -59,9 +53,9 @@ async function customColor(red, green, blue) {
         await repeatKey(newBlue, "KEY_F6")
         Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, timeout);  
     } else {
-        redDiff = Math.floor(((red - c_red)/ 255) * steps);
-        greenDiff = Math.floor(((green - c_green)/ 255) * steps);
-        blueDiff = Math.floor(((blue - c_blue)/ 255) * steps);
+        redDiff = Math.round(((red - c_red)/ 255) * steps);
+        greenDiff = Math.round(((green - c_green)/ 255) * steps);
+        blueDiff = Math.round(((blue - c_blue)/ 255) * steps);
 
         await repeatKey(1, "KEY_F7")
         Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, timeout);
@@ -114,7 +108,7 @@ app.get('/flash', (req, res) => {
 });
 
 app.get('/jump3', (req, res) => {
-    exec("irsend SEND_ONCE ledall KEY_F17", (error, stdout, stderr) => {
+    exec("irsend SEND_ONCE ledall KEY_F17", {timeout: 5000}, (error, stdout, stderr) => {
         if(error) {
             res.send('Did not work');
             return;
@@ -147,16 +141,6 @@ app.get('/fade7', (req, res) => {
 
 app.get('/jump7', (req, res) => {
     exec("irsend SEND_ONCE ledall KEY_F18", (error, stdout, stderr) => {
-        if(error) {
-            res.send('Did not work');
-            return;
-        }
-        res.send('Success');
-    })  
-});
-
-app.get('/red', (req, res) => {
-    exec("irsend SEND_ONCE ledall KEY_A", (error, stdout, stderr) => {
         if(error) {
             res.send('Did not work');
             return;
