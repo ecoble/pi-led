@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4729786425FF025E003D7530 /* HTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4729786325FF025E003D7530 /* HTTPManager.swift */; };
+		4729786825FF0283003D7530 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4729786725FF0283003D7530 /* Response.swift */; };
+		4729786B25FF02A2003D7530 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4729786A25FF02A2003D7530 /* RequestModel.swift */; };
+		4729786E25FF02D6003D7530 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4729786D25FF02D6003D7530 /* Services.swift */; };
+		4729787125FF04C2003D7530 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4729787025FF04C2003D7530 /* Forecast.swift */; };
+		473A37EC25FD47DF000296CE /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A37EB25FD47DF000296CE /* WeatherViewController.swift */; };
+		473C2E7225FC03A10037CFD2 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473C2E7125FC03A10037CFD2 /* DeviceViewController.swift */; };
+		475BEABD26015D56000186A3 /* power.png in Resources */ = {isa = PBXBuildFile; fileRef = 475BEABC26015D56000186A3 /* power.png */; };
+		475BEAC126016320000186A3 /* LEDTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475BEAC026016320000186A3 /* LEDTabBarViewController.swift */; };
+		47609C4B25FBF85700BEB65C /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47609C4A25FBF85700BEB65C /* ColorViewController.swift */; };
+		47609C4E25FBFB2B00BEB65C /* PatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47609C4D25FBFB2B00BEB65C /* PatternViewController.swift */; };
+		47609C5125FC004D00BEB65C /* PatternCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47609C5025FC004D00BEB65C /* PatternCell.swift */; };
+		478739E525F14D4B0002613B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478739E425F14D4B0002613B /* AppDelegate.swift */; };
+		478739E725F14D4B0002613B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478739E625F14D4B0002613B /* SceneDelegate.swift */; };
+		478739E925F14D4B0002613B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478739E825F14D4B0002613B /* ViewController.swift */; };
+		478739EC25F14D4B0002613B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478739EA25F14D4B0002613B /* Main.storyboard */; };
+		478739EE25F14D4E0002613B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478739ED25F14D4E0002613B /* Assets.xcassets */; };
+		478739F125F14D4E0002613B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478739EF25F14D4E0002613B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4729786325FF025E003D7530 /* HTTPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPManager.swift; sourceTree = "<group>"; };
+		4729786725FF0283003D7530 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		4729786A25FF02A2003D7530 /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		4729786D25FF02D6003D7530 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		4729787025FF04C2003D7530 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		473A37EB25FD47DF000296CE /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		473C2E7125FC03A10037CFD2 /* DeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
+		475BEABC26015D56000186A3 /* power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = power.png; sourceTree = "<group>"; };
+		475BEAC026016320000186A3 /* LEDTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDTabBarViewController.swift; sourceTree = "<group>"; };
+		47609C4A25FBF85700BEB65C /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		47609C4D25FBFB2B00BEB65C /* PatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternViewController.swift; sourceTree = "<group>"; };
+		47609C5025FC004D00BEB65C /* PatternCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternCell.swift; sourceTree = "<group>"; };
+		478739E125F14D4B0002613B /* GLAM App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GLAM App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		478739E425F14D4B0002613B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		478739E625F14D4B0002613B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		478739E825F14D4B0002613B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		478739EB25F14D4B0002613B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		478739ED25F14D4E0002613B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		478739F025F14D4E0002613B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		478739F225F14D4E0002613B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478739DE25F14D4B0002613B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4729786225FF0234003D7530 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4729786325FF025E003D7530 /* HTTPManager.swift */,
+				4729786725FF0283003D7530 /* Response.swift */,
+				4729786A25FF02A2003D7530 /* RequestModel.swift */,
+				4729786D25FF02D6003D7530 /* Services.swift */,
+				4729787025FF04C2003D7530 /* Forecast.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		475BEAB826015AF0000186A3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				475BEABC26015D56000186A3 /* power.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		478739D825F14D4B0002613B = {
+			isa = PBXGroup;
+			children = (
+				478739E325F14D4B0002613B /* GLAM App */,
+				478739E225F14D4B0002613B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		478739E225F14D4B0002613B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				478739E125F14D4B0002613B /* GLAM App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		478739E325F14D4B0002613B /* GLAM App */ = {
+			isa = PBXGroup;
+			children = (
+				475BEAB826015AF0000186A3 /* Assets */,
+				4729786225FF0234003D7530 /* Networking */,
+				478739E425F14D4B0002613B /* AppDelegate.swift */,
+				478739E625F14D4B0002613B /* SceneDelegate.swift */,
+				478739E825F14D4B0002613B /* ViewController.swift */,
+				478739EA25F14D4B0002613B /* Main.storyboard */,
+				475BEAC026016320000186A3 /* LEDTabBarViewController.swift */,
+				473A37EB25FD47DF000296CE /* WeatherViewController.swift */,
+				473C2E7125FC03A10037CFD2 /* DeviceViewController.swift */,
+				478739ED25F14D4E0002613B /* Assets.xcassets */,
+				478739EF25F14D4E0002613B /* LaunchScreen.storyboard */,
+				478739F225F14D4E0002613B /* Info.plist */,
+				47609C4A25FBF85700BEB65C /* ColorViewController.swift */,
+				47609C4D25FBFB2B00BEB65C /* PatternViewController.swift */,
+				47609C5025FC004D00BEB65C /* PatternCell.swift */,
+			);
+			path = "GLAM App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		478739E025F14D4B0002613B /* GLAM App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478739F525F14D4E0002613B /* Build configuration list for PBXNativeTarget "GLAM App" */;
+			buildPhases = (
+				478739DD25F14D4B0002613B /* Sources */,
+				478739DE25F14D4B0002613B /* Frameworks */,
+				478739DF25F14D4B0002613B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GLAM App";
+			productName = "GLAM App";
+			productReference = 478739E125F14D4B0002613B /* GLAM App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		478739D925F14D4B0002613B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					478739E025F14D4B0002613B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 478739DC25F14D4B0002613B /* Build configuration list for PBXProject "GLAM App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 478739D825F14D4B0002613B;
+			productRefGroup = 478739E225F14D4B0002613B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				478739E025F14D4B0002613B /* GLAM App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		478739DF25F14D4B0002613B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475BEABD26015D56000186A3 /* power.png in Resources */,
+				478739F125F14D4E0002613B /* LaunchScreen.storyboard in Resources */,
+				478739EE25F14D4E0002613B /* Assets.xcassets in Resources */,
+				478739EC25F14D4B0002613B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		478739DD25F14D4B0002613B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478739E925F14D4B0002613B /* ViewController.swift in Sources */,
+				4729786E25FF02D6003D7530 /* Services.swift in Sources */,
+				473C2E7225FC03A10037CFD2 /* DeviceViewController.swift in Sources */,
+				47609C4E25FBFB2B00BEB65C /* PatternViewController.swift in Sources */,
+				478739E525F14D4B0002613B /* AppDelegate.swift in Sources */,
+				4729786825FF0283003D7530 /* Response.swift in Sources */,
+				4729786425FF025E003D7530 /* HTTPManager.swift in Sources */,
+				4729787125FF04C2003D7530 /* Forecast.swift in Sources */,
+				47609C4B25FBF85700BEB65C /* ColorViewController.swift in Sources */,
+				4729786B25FF02A2003D7530 /* RequestModel.swift in Sources */,
+				475BEAC126016320000186A3 /* LEDTabBarViewController.swift in Sources */,
+				473A37EC25FD47DF000296CE /* WeatherViewController.swift in Sources */,
+				47609C5125FC004D00BEB65C /* PatternCell.swift in Sources */,
+				478739E725F14D4B0002613B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		478739EA25F14D4B0002613B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478739EB25F14D4B0002613B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		478739EF25F14D4E0002613B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478739F025F14D4E0002613B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		478739F325F14D4E0002613B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		478739F425F14D4E0002613B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		478739F625F14D4E0002613B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR8Y6CJPE7;
+				INFOPLIST_FILE = "GLAM App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Maddie-Min.GLAM-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		478739F725F14D4E0002613B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR8Y6CJPE7;
+				INFOPLIST_FILE = "GLAM App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Maddie-Min.GLAM-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		478739DC25F14D4B0002613B /* Build configuration list for PBXProject "GLAM App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478739F325F14D4E0002613B /* Debug */,
+				478739F425F14D4E0002613B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478739F525F14D4E0002613B /* Build configuration list for PBXNativeTarget "GLAM App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478739F625F14D4E0002613B /* Debug */,
+				478739F725F14D4E0002613B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 478739D925F14D4B0002613B /* Project object */;
+}
